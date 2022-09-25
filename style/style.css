@@ -4,7 +4,7 @@
 :root {
   --menu_font: 'Work Sans', sans-serif;
   --primary-text: 'M PLUS Rounded 1c', sans-serif;
-  --bg_img: url(../assets/bg-container-mobile.webp);
+  --bg_img: url(../assets/bg-container-mobile.jpg);
   --primary-color: #1c3b9e;
 }
 * {
@@ -150,15 +150,15 @@ body {
   }
   }
 
-  #primary-text h1, h2{
+  #primary-text h1 , h2{
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: left;
-    margin-left: 1rem;
-    margin-top: 3%;
+    margin-left: 1.5rem;
+    margin-top: 4%;
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
     font-family: var(--primary-text);
     font-weight: 700;
   }
@@ -207,10 +207,10 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #FFF;
-    margin-top: 13%;
+    background-color: rgb(231, 230, 230);
+    margin-top: 15%;
     font-family: var(--primary-text);
-    font-weight: 900;
+    font-weight: 300;
     padding: 5%;
   }
   
