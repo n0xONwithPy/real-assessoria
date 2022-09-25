@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
 :root {
   --menu_font: 'Work Sans', sans-serif;
+  --primary-text: 'M PLUS Rounded 1c', sans-serif;
   --bg_img: url(../assets/bg-container-mobile.webp);
   --primary-color: #1c3b9e;
 }
 * {
   margin: 0; padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 600px) 
@@ -19,7 +22,7 @@ h2 {
 
 body {
   height: 100%;
-  background: var(--bg_img) 100vw fixed;
+  background: var(--bg_img) 100% no-repeat fixed;
 }
 
 .top-nav {
@@ -45,7 +48,7 @@ body {
   margin: 0 1rem;
   overflow: hidden;
   font-family: var(--menu_font);
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .menu-button-container {
@@ -137,8 +140,17 @@ body {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+  .menu a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .menu a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  }
 
-  #primary-text h1,h2{
+  #primary-text h1, h2{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -147,11 +159,13 @@ body {
     margin-top: 3%;
     color: #000;
     font-size: 30px;
+    font-family: var(--primary-text);
+    font-weight: 700;
   }
 
   #carousel-box {
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     max-width: 300px;
@@ -161,17 +175,55 @@ body {
     width: 100%;
     height: 100%;
   }
-}
-#img-content {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  #img-content {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  
+  #middle-text-title {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3.5rem;
+    width: 300px;
+    height: 60px;
+    background-color: var(--primary-color);
+    font-family: var(--primary-text);
+    font-weight: 600;
+  }
+  
+  #middle-text-title h2 {
+    position: relative;                     
+    text-align: center !important;
+    color: #FFF;
+    width: 250px;
+  }
+  
+  #middle-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 13%;
+    font-family: var(--primary-text);
+    font-weight: 900;
+    padding: 5%;
+  }
+  
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 1000;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(167, 159, 159);
+    opacity: 40%;
+    padding: 5px;
+    border-radius: 4px;
+  }
 }
