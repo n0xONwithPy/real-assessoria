@@ -22,7 +22,7 @@ h2 {
 
 body {
   height: 100%;
-  background: var(--bg_img) 100% no-repeat fixed;
+  background: var(--bg_img) 100% fixed;
 }
 
 .top-nav {
@@ -187,7 +187,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 3.5rem;
+    top: 4rem;
     width: 300px;
     height: 60px;
     background-color: var(--primary-color);
@@ -197,7 +197,8 @@ body {
   
   #middle-text-title h2 {
     position: relative;                     
-    text-align: center !important;
+    text-align: center;
+    padding-top: 3%;
     color: #FFF;
     width: 250px;
   }
@@ -216,7 +217,7 @@ body {
   #myBtn {
     position: fixed;
     bottom: 20px;
-    right: 60px;
+    right: 20px;
     z-index: 1000;
     font-size: 18px;
     border: none;
