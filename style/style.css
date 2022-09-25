@@ -146,7 +146,7 @@ body {
   }
   .menu a:hover {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #bfbfbf;
   }
   }
 
@@ -217,7 +217,7 @@ body {
   #myBtn {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 50px;
     z-index: 1000;
     font-size: 18px;
     border: none;
