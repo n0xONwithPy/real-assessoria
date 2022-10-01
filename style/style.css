@@ -22,7 +22,7 @@ h2 {
 
 body {
   height: 100%;
-  background: var(--bg_img) 10% fixed;
+  background: var(--bg_img) 100vw fixed;
 }
 
 .top-nav {
@@ -238,8 +238,11 @@ body {
   }
 
   #middle-about img {
-    padding-top: 30%;
-    border: 1px solid black;
+    display: flex;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
   }
 
   .desc h3 {
@@ -248,6 +251,15 @@ body {
     font-family: var(--primary-text);
     color: var(--primary-color);
     font-weight: 600;
+  }
+
+  .desc p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--primary-text);
+    font-size: 15px;
   }
 
   .title h2 {
