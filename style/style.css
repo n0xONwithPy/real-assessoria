@@ -13,7 +13,7 @@
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 600px) 
+@media screen and (min-width: 300px) 
 {
 h2 {
   vertical-align: center;
@@ -22,7 +22,7 @@ h2 {
 
 body {
   height: 100%;
-  background: var(--bg_img) 100% fixed;
+  background: var(--bg_img) 10% fixed;
 }
 
 .top-nav {
@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   background: var(--primary-color);
   color: #FFF;
+  max-width: 100vw;
   height: 40px;
   padding: 1em;
 }
@@ -174,6 +175,7 @@ body {
   .carousel-inner img {
     width: 100%;
     height: 100%;
+    border: 1px solid black;
   }
   #img-content {
     display: flex;
@@ -226,5 +228,33 @@ body {
     opacity: 40%;
     padding: 5px;
     border-radius: 4px;
+  }
+
+  #middle-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+
+  #middle-about img {
+    padding-top: 30%;
+    border: 1px solid black;
+  }
+
+  .desc h3 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-text);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+
+  .title h2 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-text);
+    color: var(--primary-color);
+    font-weight: 600;
   }
 }
