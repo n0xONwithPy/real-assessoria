@@ -156,7 +156,7 @@ body {
   #primary-text h1, h2{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 300px;
     text-align: left;
     margin-left: 1rem;
     margin-top: 4%;
@@ -220,7 +220,7 @@ body {
   #myBtn {
     position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 10px;
     z-index: 1000;
     font-size: 18px;
     border: none;
