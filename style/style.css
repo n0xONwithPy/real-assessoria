@@ -298,4 +298,30 @@ body {
     color: var(--primary-color);
     font-weight: 600;
   }
+
+  .service {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 1rem;
+    align-items: center;
+    background-color: #FFF;
+  }
+
+  .service img {
+    display: flex;
+    margin-top: 3.5rem;
+  }
+
+  .service h3, p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--secondary-text);
+    font-weight: 600;
+  }
+  .service p {
+    font-weight: 200;
+  }
 }
