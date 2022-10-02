@@ -1,4 +1,5 @@
-ScrollReveal().reveal('#primary-text');
-ScrollReveal().reveal('#primary-text', { delay: 500 });
-ScrollReveal().reveal('#primary-text', { duration: 2000 });
-ScrollReveal().reveal('#primary-text', { origin: 'left' });
+ScrollReveal().reveal('.title', { delay: 600 });
+ScrollReveal().reveal('.title', { duration: 2000 });
+
+ScrollReveal().reveal('.desc', { delay: 600 });
+ScrollReveal().reveal('.desc', { duration: 2000 });
