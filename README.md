@@ -4,7 +4,7 @@
 Sera feito usando metodologia agil de desenvolvimento kanban
 
 ## TECNOLOGIAS
-PHP,HTML,CSS,JS,BOOTSTRAP
+PHP, HTML, CSS, JS, BOOTSTRAP
 
-### VERSAO
+## VERSAO
 Sera utilizado Git para controle de versionamento
