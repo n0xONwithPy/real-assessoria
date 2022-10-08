@@ -314,7 +314,6 @@ body {
 
   .service h3, p {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -323,5 +322,71 @@ body {
   }
   .service p {
     font-weight: 200;
+  }
+
+  #contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 142rem;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+  }
+
+  #contacts h3 {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    width: 320px;
+    font-family: var(--secondary-text);
+    height: 60px !important;
+  }
+
+  .form-contact {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    max-width: 340px;
+    background-color: var(--primary-color);
+    border-radius: 6px
+  }
+  ::placeholder {
+    padding-left: 1rem;
+    font-family: var(--secondary-text);
+    border-radius: 6px !important;
+  }
+  .form-contact label {
+    margin-left: .5rem;
+    font-family: var(--secondary-text);
+    color: #bfbfbf;
+  }
+  .form-contact input {
+    max-width: 300px;
+    margin-left: .5rem;
+    font-family: var(--secondary-text);
+  }
+  .form-contact textarea {
+    max-width: 300px;
+    margin-left: .5rem;
+    font-family: var(--secondary-text);
+    border-radius: 6px;
+  }
+
+  .btn {
+    display: flex;
+    background: #bfbfbf !important;
+    align-items: center;
+    text-align: center;
+    margin-top: .5rem;
+    width: 90px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-family: var(--secondary-text);
   }
 } 
