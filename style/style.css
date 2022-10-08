@@ -359,7 +359,6 @@ body {
   ::placeholder {
     padding-left: 1rem;
     font-family: var(--secondary-text);
-    border-radius: 6px !important;
   }
   .form-contact label {
     margin-left: .5rem;
@@ -370,6 +369,7 @@ body {
     max-width: 300px;
     margin-left: .5rem;
     font-family: var(--secondary-text);
+    border-radius: 6px;       
   }
   .form-contact textarea {
     max-width: 300px;
