@@ -380,13 +380,16 @@ body {
 
   .btn {
     display: flex;
-    background: #bfbfbf !important;
-    align-items: center;
-    text-align: center;
+    background-color: #bfbfbf !important;
+   
     margin-top: .5rem;
     width: 90px;
     margin-left: auto !important;
     margin-right: auto !important;
     font-family: var(--secondary-text);
+  }
+  .btn:hover {
+    background: var(--primary-color) !important;
+    border: 3px solid #bfbfbf;
   }
 } 
