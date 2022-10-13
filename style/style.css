@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 :root {
   --menu_font: 'Work Sans', sans-serif;
   --primary-text: 'M PLUS Rounded 1c', sans-serif;
   --secondary-text: 'Roboto Mono', monospace;
   --third-text: 'Inter', sans-serif;
+  --fourth-text: 'Merriweather', serif;
   --bg_img: url(../assets/bg-container-mobile.jpg);
   --primary-color: #1c3b9e;
 }
@@ -163,7 +164,7 @@ body {
     margin-top: 4%;
     color: #000;
     font-size: 20px;
-    font-family: var(--primary-text);
+    font-family: var(--fourth-text);
     font-weight: 500;
   }
 
@@ -175,7 +176,7 @@ body {
     margin-top: 4%;
     color: #000;
     font-size: 30px;
-    font-family: var(--primary-text);
+    font-family: var(--fourth-text);
     font-weight: 700;
   }
 
