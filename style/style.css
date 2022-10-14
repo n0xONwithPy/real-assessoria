@@ -408,4 +408,11 @@ body {
     background: var(--primary-color) !important;
     border: 3px solid #bfbfbf;
   }
+
+  .box-midias {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    max-width: 200px;
+  }
 } 
