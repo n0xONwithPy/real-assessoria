@@ -365,7 +365,7 @@ body {
     margin-right: auto;
     flex-direction: column;
     width: 400px;
-    height: 550px;
+    height: 570px;
     background-color: var(--primary-color);
     border-radius: 6px
   }
@@ -375,6 +375,19 @@ body {
     font-family: var(--secondary-text);
     padding-left: .5rem;
   }
+
+  .select-user {
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+    background-color: #FFF;
+    border: none;
+    border-radius: 6px;
+    height: 30px;
+    font-family: var(--secondary-text);
+    color: #797676;
+  }
+
   .form-contact label {
     margin-left: 2rem;
     margin-top: 1rem;

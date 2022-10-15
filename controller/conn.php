@@ -13,5 +13,5 @@ try {
     mysqli_select_db($conn,DB);
 }
 catch (Exception $e) {
-
+    //PLANEJANDO SOBRE OS POSSIVEIS ERROS DE CONEXAO
 }
