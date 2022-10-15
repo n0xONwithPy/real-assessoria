@@ -177,7 +177,7 @@ body {
     color: #000;
     font-size: 30px;
     font-family: var(--fourth-text);
-    font-weight: 700;
+    font-weight: 300;
   }
 
   #carousel-box {
@@ -204,7 +204,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
     top: 4rem;
     width: 300px;
     height: 60px;
@@ -337,7 +337,7 @@ body {
   #contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 142rem;
+    margin-top: 145rem;
     align-items: center;
     justify-content: center;
     height: 330px;
@@ -360,7 +360,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
@@ -427,7 +426,7 @@ body {
   #midias {
     display: flex;
     justify-content: center;
-    margin-top: 13rem;
+    margin-top: 15rem;
     height: 800px;
   }
 
