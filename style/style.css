@@ -365,7 +365,7 @@ body {
     margin-right: auto;
     flex-direction: column;
     width: 400px;
-    height: 570px;
+    height: 620px;
     background-color: var(--primary-color);
     border-radius: 6px
   }
@@ -379,7 +379,7 @@ body {
   .select-user {
     display: flex;
     margin-left: 2rem;
-    margin-top: 1.4rem;
+    margin-top: 1.6rem;
     background-color: #FFF;
     border: none;
     border-radius: 6px;
