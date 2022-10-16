@@ -28,7 +28,7 @@ h2 {
 
 body {
   height: 100%;
-  background: var(--bg_img) 100vw fixed;
+  background: var(--bg_img) 100vh fixed !important;
 }
 
 .top-nav {
@@ -337,7 +337,7 @@ body {
   #contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 145rem;
+    margin-top: 27rem;
     align-items: center;
     justify-content: center;
     height: 330px;
@@ -426,8 +426,12 @@ body {
   #midias {
     display: flex;
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 135rem;
     height: 800px;
+  }
+
+  .title {
+    display: flex;
   }
 
   .background-box {
