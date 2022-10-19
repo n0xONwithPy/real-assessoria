@@ -68,7 +68,7 @@
 
   body {
     height: 100%;
-    background: var(--bg_img) 100vh fixed !important;
+    background: var(--bg_img) 100vw fixed !important;
   }
 
   .top-nav {
