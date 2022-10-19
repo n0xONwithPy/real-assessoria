@@ -22,7 +22,48 @@
 }
 
 @media screen and (min-width: 300px) {
-  .service-left , .service-right { /**Display setado para tablet / desktop**/
+  /** INICIO DO DARK MODE **/
+  .dark-mode {
+    background: none !important;
+    background-color: #444 !important
+  }
+
+  .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
+    color: #bfbfbf !important;
+  }
+
+  .dark-mode #middle-text {
+    background-color: #797676 !important;
+  }
+
+  .dark-mode .service {
+    background-color: #797676 !important;
+  }
+
+  .btn-theme {
+    display: flex;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    height: 10px;
+    padding: 1rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(155, 128, 128);
+    box-shadow: 0 0 1em rgb(39, 64, 146);
+    font-family: 'Poppins', sans-serif;
+  }
+  /** FIM DO DARK MODE **/
+
+  .service-left,
+  .service-right {
+    /**Display setado para tablet / desktop**/
     display: block;
   }
 
@@ -168,7 +209,7 @@
   }
 
 
-  #primary-text h1 {
+  #primary-text h1, #primary-text h2 {
     display: flex;
     width: 300px;
     text-align: left;
@@ -178,18 +219,6 @@
     font-size: 20px;
     font-family: var(--fourth-text);
     font-weight: 500;
-  }
-
-  #primary-text h2 {
-    display: flex;
-    width: 300px;
-    text-align: left;
-    margin-left: 1rem;
-    margin-top: 4%;
-    color: #000;
-    font-size: 30px;
-    font-family: var(--fourth-text);
-    font-weight: 300;
   }
 
   #carousel-box {
@@ -411,21 +440,13 @@
     color: #bfbfbf;
   }
 
-  .form-contact input {
+  .form-contact input, .form-contact textarea  {
     width: 340px;
     margin-left: auto;
     margin-right: auto;
     font-family: var(--secondary-text);
     border-radius: 6px;
     border: none;
-  }
-
-  .form-contact textarea {
-    width: 340px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--secondary-text);
-    border-radius: 6px;
   }
 
   .btn {
@@ -471,14 +492,10 @@
     width: 380px;
   }
 
-  .box-midia h2 {
+  .box-midia h2, .box-midia p{
     font-family: var(--primary-text);
   }
-
-  .box-midia p {
-    font-family: var(--third-text);
-  }
-
+  
   .midia-itens {
     display: flex;
     margin-top: 10px;
