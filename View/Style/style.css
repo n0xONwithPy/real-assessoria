@@ -10,8 +10,11 @@
   --secondary-text: 'Roboto Mono', monospace;
   --third-text: 'Inter', sans-serif;
   --fourth-text: 'Merriweather', serif;
-  --bg_img: url(../assets/bg-container-mobile.jpg);
+  --bg_img: url(./View/Assets/bg-container-mobile.jpg);
   --primary-color: #1c3b9e;
+  
+  /** DARK MODE VARIABLE **/
+  --color-darkMode: #797676;
 }
 
 * {
@@ -33,7 +36,7 @@
   }
 
   .dark-mode #middle-text, .dark-mode .service  {
-    background-color: #797676 !important;
+    background-color: var(--color-darkMode) !important;
   }
 
   .btn-theme {
