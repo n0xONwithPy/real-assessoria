@@ -22,6 +22,10 @@
 }
 
 @media screen and (min-width: 300px) {
+  .service-left , .service-right { /**Display setado para tablet / desktop**/
+    display: block;
+  }
+
   h2 {
     vertical-align: center;
     text-align: center;
@@ -519,11 +523,9 @@
 }
 
 @media screen and (min-width: 900px) {
-  #middle-text {
+  .top-nav {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px !important;
+    width: 100vw !important;
   }
 
   #carousel-box {
@@ -539,22 +541,26 @@
     height: 100%;
   }
 
+  #middle-text-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+  }
+  
+  #middle-text {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px !important;
+  }
+
+
   #middle-about p {
     display: flex;
     width: 600px;
-  }
-
-  .top-nav {
-    display: flex;
-    width: 100vw !important;
-  }
-
-  .service {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 600px;
-    border: 5px solid black;
   }
 
   .check-t {
@@ -569,5 +575,66 @@
     margin-top: -1.2rem;
     color: #FFF;
     font-family: var(--third-text);
+  }
+
+  .service {
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 78rem;
+  }
+
+  .service-left {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .service-left img {
+    display: flex;
+    margin-left: 1em !important;
+    border: 1px solid black;
+  }
+  .service-left h3 {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-top: 2em;
+    height: 30px;
+    width: 10px;
+  }
+  .service-left p {
+    border: 1px solid black;
+    display: flex;
+    margin-top: 6rem;
+    width: 300px;
+  }
+
+  .service-right {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .service-right img {
+    display: flex;
+    margin-left: 1em !important;
+    border: 1px solid black;
+  }
+  .service-right h3 {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-top: 2em;
+    height: 30px;
+    width: 10px;
+  }
+  .service-right p {
+    border: 1px solid black;
+    display: flex;
+    margin-top: 6rem;
+    width: 300px;
   }
 }
