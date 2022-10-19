@@ -32,32 +32,23 @@
     color: #bfbfbf !important;
   }
 
-  .dark-mode #middle-text {
-    background-color: #797676 !important;
-  }
-
-  .dark-mode .service {
+  .dark-mode #middle-text, .dark-mode .service  {
     background-color: #797676 !important;
   }
 
   .btn-theme {
     display: flex;
+    margin-left: 88%;
+    width: 10px !important;
+    border: none;
   }
 
   .btn {
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem;
-    height: 10px;
-    padding: 1rem;
     background: none;
     border: none;
     border-radius: 10px;
-    color: rgb(155, 128, 128);
-    box-shadow: 0 0 1em rgb(39, 64, 146);
-    font-family: 'Poppins', sans-serif;
   }
   /** FIM DO DARK MODE **/
 
