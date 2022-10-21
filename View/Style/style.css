@@ -490,8 +490,9 @@
     font-family: var(--primary-text);
   }
   
-  .midia-itens {
+  .midia-itens, .midia-itens img {
     display: flex;
+    width: 30px !important;
     margin-top: 10px;
     flex-direction: column;
     align-items: center;
