@@ -497,11 +497,7 @@
     align-items: center;
     padding: .5rem;
   }
-
-  .midia-itens img:hover {
-    width: 70px;
-  }
-
+  
   .check-t {
     display: flex !important;
     margin-top: 15px !important;
