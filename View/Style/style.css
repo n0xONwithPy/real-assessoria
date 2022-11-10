@@ -14,7 +14,7 @@
   --primary-color: #1c3b9e;
   
   /** DARK MODE VARIABLE TEST **/
-  --color-darkMode: #797676;
+  --color-darkMode: #969696;
 }
 
 * {
@@ -28,7 +28,7 @@
   /** INICIO DO DARK MODE **/
   .dark-mode {
     background: none !important;
-    background-color: #444 !important
+    background-color: #444 !important;
   }
 
   .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
@@ -374,7 +374,7 @@
   #contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 27rem;
+    margin-top: 30rem;
     align-items: center;
     justify-content: center;
     height: 350px;
@@ -461,7 +461,7 @@
   #midias {
     display: flex;
     justify-content: center;
-    margin-top: 135rem;
+    margin-top: 150rem;
     height: 800px;
   }
 
